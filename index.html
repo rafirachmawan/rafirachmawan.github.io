@@ -200,6 +200,41 @@
     </section>
     <!--  Akhir Gallery -->
 
+    <!-- My Keyboard -->
+    <section class="my-keyboards">
+      <div class="container">
+          <div class="row row text-center mb-3">
+            <div class="col">
+            <h2>My Keyboard</h2>
+          </div>
+          </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="keyboard-box">
+              <h4 class="keyboard-name">Keychron K2</h4>
+              <img src="img/k2.png" alt="k2" class="keyboard-img">
+              <a href="#" class="btn btn-light keyboard-detail-button"> Show Detail</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="keyboard-box">
+              <h4 class="keyboard-name">Keychron K2</h4>
+              <img src="img/k2.png" alt="k2" class="keyboard-img">
+              <a href="#" class="btn btn-light keyboard-detail-button"> Show Detail</a>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 mb-3">
+            <div class="keyboard-box">
+              <h4 class="keyboard-name">Keychron K2</h4>
+              <img src="img/k2.png" alt="k2" class="keyboard-img">
+              <a href="#" class="btn btn-light keyboard-detail-button"> Show Detail</a>
+            </div>
+          </div>
+        </div>
+      </div>
+            </section>
+    <!-- My Keyboard akhir -->
+
     <!-- contact me -->
     <section id="contact">
       <div class="container">
@@ -317,5 +352,18 @@ galleryImage.forEach((img, i) =>{
           .catch(error => console.error('Error!', error.message))
       })
     </script>
+
+    <!-- Till JS -->
+    <script type="text/javascript" src="vanilla-tilt.min.js"></script>
+<script type="text/javascript">
+	VanillaTilt.init(document.querySelectorAll(".keyboard-box"), {
+		max: 25,
+		speed: 400
+	});
+	
+	//It also supports NodeList
+	// VanillaTilt.init(document.querySelectorAll(".your-element"));
+</script>
+    <!-- Till JS Akhir -->
   </body>
 </html>
