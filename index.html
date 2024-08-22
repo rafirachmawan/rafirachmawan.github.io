@@ -1,149 +1,159 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>My Portfolio | Rafi Rachmawan</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <!-- AOS Animation -->
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <!-- My Css -->
-    <link rel="stylesheet" href="style.css" />
-    </style>
-  </head>
-  <body id="#home">
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="#">Rafi Rachmawan</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#project">Project</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-          </ul>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Portfolio | Rafi Rachmawan</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <!-- AOS Animation -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- My Css -->
+  <link rel="stylesheet" href="style.css" />
+  </style>
+</head>
+
+<body id="#home">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Rafi Rachmawan</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Akhir Navbar -->
+
+  <!-- Jumbotron -->
+  <section class="jumbotron text-center">
+    <img src="img/profil.jpeg" alt="Rafi Rachmawan" class="profile-img img-thumbnail" />
+    <h1 class="display-4">RAFI RACHMAWAN.S.Tr</h1>
+    <p class="lead"></p>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="1"
+        d="M0,96L40,96C80,96,160,96,240,122.7C320,149,400,203,480,202.7C560,203,640,149,720,144C800,139,880,181,960,181.3C1040,181,1120,139,1200,122.7C1280,107,1360,117,1400,122.7L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <!-- Akhir Jumbotron -->
+
+  <!-- about -->
+  <section id="about">
+    <div class="container">
+      <div class="row text-center mb-5" data-aos="fade-down">
+        <div class="col">
+          <h2>About Me</h2>
         </div>
       </div>
-    </nav>
-    <!-- Akhir Navbar -->
-
-    <!-- Jumbotron -->
-    <section class="jumbotron text-center">
-      <img src="img/profil.jpeg" alt="Rafi Rachmawan" class="profile-img img-thumbnail" />
-      <h1 class="display-4">RAFI RACHMAWAN.S.Tr</h1>
-      <p class="lead"></p>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,96L40,96C80,96,160,96,240,122.7C320,149,400,203,480,202.7C560,203,640,149,720,144C800,139,880,181,960,181.3C1040,181,1120,139,1200,122.7C1280,107,1360,117,1400,122.7L1440,128L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>  
-    </section>
-    <!-- Akhir Jumbotron -->
-
-    <!-- about -->
-    <section id="about">
-      <div class="container">
-        <div class="row text-center mb-5" data-aos="fade-down" >
-          <div class="col">
-            <h2>About Me</h2>
-          </div>
+      <div class="row justify-content-center fs-5 text-center">
+        <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum labore voluptas error dignissimos possimus
+            commodi velit aut, laborum cumque deleniti?</p>
         </div>
-        <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4" data-aos="fade-right"  data-aos-duration="1000">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum labore voluptas error dignissimos possimus commodi velit aut, laborum cumque deleniti?</p>
-          </div>
-          <div class="col-md-4" data-aos="fade-left"  data-aos-duration="1000" data-aos-delay="200">
-            <p>Lorem, ipsum dolor 
-              sit amet consectetur adipisicing elit. Veniam enim corrupti qui pariatur maxime perspiciatis vero, sit doloremque. Vitae, aspernatur. Perferendis minima reiciendis pariatur explicabo?</p>
-          </div>
+        <div class="col-md-4" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+          <p>Lorem, ipsum dolor
+            sit amet consectetur adipisicing elit. Veniam enim corrupti qui pariatur maxime perspiciatis vero, sit
+            doloremque. Vitae, aspernatur. Perferendis minima reiciendis pariatur explicabo?</p>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#e2edff" fill-opacity="1" d="M0,64L40,64C80,64,160,64,240,96C320,128,400,192,480,197.3C560,203,640,149,720,149.3C800,149,880,203,960,192C1040,181,1120,107,1200,90.7C1280,75,1360,117,1400,138.7L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
-    </section>
-    <!-- akhir about -->
-    <!-- project -->
-    <section id="project">
-      <div class="container">
-        <div class="row text-center mb-3"data-aos="fade-down" >
-          <div class="col">
-            <h2>My Projects</h2>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#e2edff" fill-opacity="1"
+        d="M0,64L40,64C80,64,160,64,240,96C320,128,400,192,480,197.3C560,203,640,149,720,149.3C800,149,880,203,960,192C1040,181,1120,107,1200,90.7C1280,75,1360,117,1400,138.7L1440,160L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <!-- akhir about -->
+  <!-- project -->
+  <section id="project">
+    <div class="container">
+      <div class="row text-center mb-3" data-aos="fade-down">
+        <div class="col">
+          <h2>My Projects</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-4 mb-3">
+          <div class="card" data-aos="flip-right" data-aos-duration="500">
+            <img src="img/1.jpg" class="card-img-top" alt="project-1">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
           </div>
         </div>
-        <div class="row justify-content-center">
-          <div class="col-md-4 mb-3">
-            <div class="card" data-aos="flip-right" data-aos-duration="500">
-              <img src="img/1.jpg" class="card-img-top" alt="project-1">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-          </div>                
-          <div class="col-md-4 mb-3">
-            <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="100">
-              <img src="img/1.jpg" class="card-img-top" alt="project-1">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
+        <div class="col-md-4 mb-3">
+          <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="100">
+            <img src="img/1.jpg" class="card-img-top" alt="project-1">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
-            <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="200">
-              <img src="img/1.jpg" class="card-img-top" alt="project-1">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="200">
+            <img src="img/1.jpg" class="card-img-top" alt="project-1">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
-            <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="300">
-              <img src="img/1.jpg" class="card-img-top" alt="project-1">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="300">
+            <img src="img/1.jpg" class="card-img-top" alt="project-1">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
             </div>
           </div>
-          <div class="col-md-4 mb-3">
-            <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="400">
-              <img src="img/1.jpg" class="card-img-top" alt="project-1">
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
+        </div>
+        <div class="col-md-4 mb-3">
+          <div class="card" data-aos="flip-right" data-aos-duration="500" data-aos-delay="400">
+            <img src="img/1.jpg" class="card-img-top" alt="project-1">
+            <div class="card-body">
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
             </div>
           </div>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,224L60,224C120,224,240,224,360,202.7C480,181,600,139,720,149.3C840,160,960,224,1080,250.7C1200,277,1320,267,1380,261.3L1440,256L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
-    </section>
-    <!-- akhir project -->
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#ffffff" fill-opacity="1"
+        d="M0,224L60,224C120,224,240,224,360,202.7C480,181,600,139,720,149.3C840,160,960,224,1080,250.7C1200,277,1320,267,1380,261.3L1440,256L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <!-- akhir project -->
 
-    <!-- Gallery -->
-    <section id="gallery">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>Gallery</h2>
-          </div>
+  <!-- Gallery -->
+  <section id="gallery">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2>Gallery</h2>
+        </div>
       </div>
       <div class="row justify-content-center">
         <div class="col-md-3">
@@ -197,174 +207,178 @@
           </a>
         </div>
       </div>
-    </section>
-    <!--  Akhir Gallery -->
+  </section>
+  <!--  Akhir Gallery -->
 
-    <!-- My Keyboard -->
-    <section class="my-keyboards">
-      <div class="container">
-          <div class="row row text-center mb-3">
-            <div class="col">
-            <h2>My Keyboard</h2>
+  <!-- My Keyboard -->
+  <section class="my-keyboards">
+    <div class="container">
+      <div class="row row text-center mb-3">
+        <div class="col">
+          <h2>My Keyboard</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="keyboard-box">
+            <h4 class="keyboard-name">Keychron K2</h4>
+            <img src="img/k2.png" alt="k2" class="keyboard-img">
+            <a href="#" class="btn btn-light keyboard-detail-button"> Show Detail</a>
           </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="keyboard-box">
+            <h4 class="keyboard-name">Keychron K2</h4>
+            <img src="img/k2.png" alt="k2" class="keyboard-img">
+            <a href="#" class="btn btn-light keyboard-detail-button"> Show Detail</a>
           </div>
-        <div class="row">
-          <div class="col-md-6 col-lg-4 mb-3">
-            <div class="keyboard-box">
-              <h4 class="keyboard-name">Keychron K2</h4>
-              <img src="img/k2.png" alt="k2" class="keyboard-img">
-              <a href="#" class="btn btn-light keyboard-detail-button"> Show Detail</a>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-3">
-            <div class="keyboard-box">
-              <h4 class="keyboard-name">Keychron K2</h4>
-              <img src="img/k2.png" alt="k2" class="keyboard-img">
-              <a href="#" class="btn btn-light keyboard-detail-button"> Show Detail</a>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mb-3">
-            <div class="keyboard-box">
-              <h4 class="keyboard-name">Keychron K2</h4>
-              <img src="img/k2.png" alt="k2" class="keyboard-img">
-              <a href="#" class="btn btn-light keyboard-detail-button"> Show Detail</a>
-            </div>
+        </div>
+        <div class="col-md-6 col-lg-4 mb-3">
+          <div class="keyboard-box">
+            <h4 class="keyboard-name">Keychron K2</h4>
+            <img src="img/k2.png" alt="k2" class="keyboard-img">
+            <a href="#" class="btn btn-light keyboard-detail-button"> Show Detail</a>
           </div>
         </div>
       </div>
-            </section>
-    <!-- My Keyboard akhir -->
+    </div>
+  </section>
+  <!-- My Keyboard akhir -->
 
-    <!-- contact me -->
-    <section id="contact">
-      <div class="container">
-        <div class="row text-center mb-3">
-          <div class="col">
-            <h2>Contact Me</h2>
-          </div>
+  <!-- contact me -->
+  <section id="contact">
+    <div class="container">
+      <div class="row text-center mb-3">
+        <div class="col">
+          <h2>Contact Me</h2>
         </div>
-        <div class="row justify-content-center">
-          <div class="col-md-6">
-            <!-- alert -->
-            <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
-              <strong>Terimakasih</strong> Pesan anda sudah saya terima.
-              <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <!-- alert -->
+          <div class="alert alert-success alert-dismissible fade show d-none my-alert" role="alert">
+            <strong>Terimakasih</strong> Pesan anda sudah saya terima.
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
           <!-- akhir alert -->
-            <form name="RafiRachmawan-Contac-Form">
-              <div class="mb-3">
-                <label for="name" class="form-label">Nama Lengkap</label>
-                <input type="text" class="form-control" id="name" aria-describedby="name" name="nama">
-                 </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="email" name="email">
-                 </div>
-                 <div class="mb-3">
-                  <label for="pesan" class="form-label">Pesan</label>
-                  <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
-                </div>
-             
-            
-              <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
-              <button class="btn btn-primary btn-loading d-none" type="button" disabled>
-                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
-                Loading...
-              </button>
-            </form>
-          </div>
+          <form name="RafiRachmawan-Contac-Form">
+            <div class="mb-3">
+              <label for="name" class="form-label">Nama Lengkap</label>
+              <input type="text" class="form-control" id="name" aria-describedby="name" name="nama">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" aria-describedby="email" name="email">
+            </div>
+            <div class="mb-3">
+              <label for="pesan" class="form-label">Pesan</label>
+              <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+            </div>
+
+
+            <button type="submit" class="btn btn-primary btn-kirim">Kirim</button>
+            <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+              <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+              Loading...
+            </button>
+          </form>
         </div>
       </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="1" d="M0,128L60,112C120,96,240,64,360,90.7C480,117,600,203,720,250.7C840,299,960,309,1080,282.7C1200,256,1320,192,1380,160L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
-    </section>
-    <!-- akhir contact me -->
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+      <path fill="#0d6efd" fill-opacity="1"
+        d="M0,128L60,112C120,96,240,64,360,90.7C480,117,600,203,720,250.7C840,299,960,309,1080,282.7C1200,256,1320,192,1380,160L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+      </path>
+    </svg>
+  </section>
+  <!-- akhir contact me -->
 
-    <!-- footer -->
-    <footer class="bg-primary text-white text-center pb-5">
-      <p>Create With Love By <a class="text-white fw-bold" href="https://github.com/rafirachmawan">Rafi Rachmawan</a></p>
-    </footer>
-    <!-- akhir footer -->
+  <!-- footer -->
+  <footer class="bg-primary text-white text-center pb-5">
+    <p>Create With Love By <a class="text-white fw-bold" href="https://github.com/rafirachmawan">Rafi Rachmawan</a></p>
+  </footer>
+  <!-- akhir footer -->
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
 
-    <!-- js AOS -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <!-- js AOS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 
-    <script>
-// pembuatan di img gallery fade down bersamaan
-const galleryImage = document.querySelectorAll('.gallery-img');
+  <script>
+    // pembuatan di img gallery fade down bersamaan
+    const galleryImage = document.querySelectorAll('.gallery-img');
 
-galleryImage.forEach((img, i) =>{
-  img.dataset.aos = 'fade-down';
-  img.dataset.aosDelay = i * 100;
-  img.dataset.aosDuration = 1000;
-})
-// pembuatan di img gallery fade down bersamaan akhir
+    galleryImage.forEach((img, i) => {
+      img.dataset.aos = 'fade-down';
+      img.dataset.aosDelay = i * 100;
+      img.dataset.aosDuration = 1000;
+    })
+    // pembuatan di img gallery fade down bersamaan akhir
 
-      AOS.init({
-        once: true,
-      });
-    </script>
+    AOS.init({
+      once: true,
+    });
+  </script>
 
-    <!-- gsap -->
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
-    <script>
-      gsap.registerPlugin(TextPlugin);
-      gsap.to('.lead', {duration: 2, delay: 1.5, text: 'Front End Developer | Fresh Graduate'})
-      gsap.from('.jumbotron img', { duration:1, rotateY: 360, opacity: 0})
-      gsap.from('.navbar', { duration:1.5, Y:'-100%', opacity: 0, ease: 'bounce'})
-      gsap.from('.display-4', { duration:1, x:'-50', opacity: 0, delay:0.5,  ease: 'back'})
-    </script>
-    <!-- akhir gsap -->
+  <!-- gsap -->
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
+  <script>
+    gsap.registerPlugin(TextPlugin);
+    gsap.to('.lead', { duration: 2, delay: 1.5, text: 'Front End Developer | Fresh Graduate' })
+    gsap.from('.jumbotron img', { duration: 1, rotateY: 360, opacity: 0 })
+    gsap.from('.navbar', { duration: 1.5, Y: '-100%', opacity: 0, ease: 'bounce' })
+    gsap.from('.display-4', { duration: 1, x: '-50', opacity: 0, delay: 0.5, ease: 'back' })
+  </script>
+  <!-- akhir gsap -->
 
-<!-- kegunaan form  -->
-    <script>
-      const scriptURL = 'https://script.google.com/macros/s/AKfycbx09WXkPm9T3JK5KAsqUWr4r_xlNH6N66ecgElzhuWZf8G81otCJVWg__5jQEzwF_bisQ/exec'
-      const form = document.forms['RafiRachmawan-Contac-Form']
-      const btnKirim = document.querySelector('.btn-kirim');
-      const btnLoading = document.querySelector('.btn-loading');
-      const myAlert = document.querySelector('.my-alert');
-    
-      form.addEventListener('submit', e => {
-        e.preventDefault()
-        // ketika tombol submit diklik
+  <!-- kegunaan form  -->
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx09WXkPm9T3JK5KAsqUWr4r_xlNH6N66ecgElzhuWZf8G81otCJVWg__5jQEzwF_bisQ/exec'
+    const form = document.forms['RafiRachmawan-Contac-Form']
+    const btnKirim = document.querySelector('.btn-kirim');
+    const btnLoading = document.querySelector('.btn-loading');
+    const myAlert = document.querySelector('.my-alert');
 
-        // tampilkan tombol loading, hilangkan tombol kirim
-        btnLoading.classList.toggle('d-none');
-        btnKirim.classList.toggle('d-none');
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      // ketika tombol submit diklik
 
-        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-          .then(response => {
-            // tampilkan tombol kirim, hilangkan tombol loading
-            btnLoading.classList.toggle('d-none');
-            btnKirim.classList.toggle('d-none');
+      // tampilkan tombol loading, hilangkan tombol kirim
+      btnLoading.classList.toggle('d-none');
+      btnKirim.classList.toggle('d-none');
 
-            // tampilkan alert
-            myAlert.classList.toggle('d-none');
-            // reset form 
-            form.reset();
-            console.log('Success!', response)})
-          .catch(error => console.error('Error!', error.message))
-      })
-    </script>
+      fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+          // tampilkan tombol kirim, hilangkan tombol loading
+          btnLoading.classList.toggle('d-none');
+          btnKirim.classList.toggle('d-none');
 
-    <!-- Till JS -->
-    <script type="text/javascript" src="vanilla-tilt.min.js"></script>
-<script type="text/javascript">
-	VanillaTilt.init(document.querySelectorAll(".keyboard-box"), {
-		max: 25,
-		speed: 400,
-    glare: true
-	});
-	
-	//It also supports NodeList
-	// VanillaTilt.init(document.querySelectorAll(".your-element"));
-</script>
-    <!-- Till JS Akhir -->
-  </body>
+          // tampilkan alert
+          myAlert.classList.toggle('d-none');
+          // reset form 
+          form.reset();
+          console.log('Success!', response)
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+  <!-- Till JS -->
+  <script type="text/javascript" src="vanilla-tilt.min.js"></script>
+  <script type="text/javascript">
+    VanillaTilt.init(document.querySelectorAll(".keyboard-box"), {
+      max: 25,
+      speed: 400,
+      glare: true
+    });
+
+    //It also supports NodeList
+    // VanillaTilt.init(document.querySelectorAll(".your-element"));
+  </script>
+  <!-- Till JS Akhir -->
+</body>
+
 </html>
